@@ -11,11 +11,6 @@
   
   <title>
     
-      Category 
-      
-       : ArcGIS
-      |
-    
      Mokklo&#39;s Utopia
   </title>
 
@@ -110,30 +105,147 @@
 
 
       <div class="flex-container">
-        <!-- 标签详情页，展示某个标签下的文章列表，url形式：https://yoursite/tags/某个标签/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<div class="container category-details">
-  <div class="content-title">
-    <h2>
-      <span>ArcGIS</span>
-    </h2>
-  </div>
+
+  <!-- LaTex Display -->
+
   
-    <div class="post-list">
-      <div class="post-item" title="ArcGIS错误代码-97解决方法">
-        <span class="time-m-d">2022-02-05</span>
-        <a href="/2022/02/05/ArcGIS%E9%94%99%E8%AF%AF%E4%BB%A3%E7%A0%81-97%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/">
-          <span>ArcGIS错误代码-97解决方法</span>
-        </a>
+    <script async type="text/javascript" src="/plugins/mathjax/tex-chtml.js"></script>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    }
+  </script>
+
+
+
+
+
+  <!-- clipboard -->
+
+  
+    <script async type="text/javascript" src="/plugins/clipboard.min.js"></script>
+  
+  
+<script src="/js/codeCopy.js"></script>
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title"></div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime mr-10" title="更新时间"></i>
+          2022-12-01 00:47:01
+        </span>
+        
       </div>
+      <div class="markdown-body">
+        <p><strong>《夜莺》</strong></p>
+<p>传统的2D像素风RPG，讲述了一段横亘百年的关于背叛、猜忌与拯救的故事。</p>
+<details>
+<summary>时间轴</summary>
+
+<p>2022.7 六张地图制作（秘法洛帝国王宫区域）、初章事件编写</p>
+<p>2022.4 战斗系统基本框架搭建（人物与敌人成长数值生成、技能、装备、道具等文本简介）</p>
+<p>2018 大纲完成</p>
+</details>
+
+<details>
+<summary>世界观</summary>
+
+<p><del>太长了，有时间再放上来</del></p>
+</details>
+
+<br>
+
+<p><strong>《Withering Day/凋零日》</strong></p>
+<p>基于Renpy引擎增强了互动性的视觉小说。</p>
+</details>
+
+<details>
+<summary>时间轴</summary>
+
+<p>2021.11 加入日历功能、部分文本NVL呈现</p>
+<p>2021.7 主角立绘制作</p>
+<p>2020.10 大纲完成</p>
+</details>
+
+
+</details>
+
+<details>
+<summary>世界观</summary>
+
+<p>一部连接两个世界的手机，一段自我救赎与毁灭的过程。</p>
+<p>在世界1中遭受家庭不幸不断轮回的少女，和在世界2中被爱包围着长大的挚友的相互陪伴。</p>
+<ul>
+<li><p>在自由探索城市中发现能帮助主角在每章中顺利存活的线索；</p>
+</li>
+<li><p>死亡并非终点。主角死亡后将重生回该章开头，且保留此前所有记忆，并能在进行部分与上一段记忆中相同的互动时解锁新的选项与信息。</p>
+</li>
+</ul>
+<p><em>在未获得特殊信息的时候，坏结局或许是一种不可避免的结果…但以重生之人的视角去再次探索这个世界，也许会发生一些意想不到的好事。</em></p>
+</details>
+
+
+
+
+
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime mr-10" title="更新时间"></i>
+              2022-12-01 00:47:01
+            </span>
+            
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
+        </div>
+      
     </div>
-  
-  <nav class="post-navigation">
     
-    <span class="page-num">1 / 1</span>
+
     
-  </nav>
-</div>
+      <div class="comments-container">
+        
+
+
+
+
+
+
+
+      </div>
+    
+  </div>
+
 
         
 <div class="footer">
@@ -388,6 +500,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' +  + '&url=' + https%3A%2F%2Fmokklo.top%2FPortfolio%2Fprojects%2Findex.html + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=https://mokklo.top/Portfolio/projects/index.html" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>
